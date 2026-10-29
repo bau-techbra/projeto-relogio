@@ -1,0 +1,45 @@
+/* Aparência geral da página */
+body {
+    background-color: #f0f0f0;
+    color: #222;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    transition: 0.4s;
+}
+
+/* Aparência dos blocos */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Aparência dos botões */
+button {
+    background-color: #b00020;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Aparência do relógio */
+#relogio {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Tema escuro: classe ativada pelo JavaScript */
+.escuro {
+    background-color: #222;
+    color: white;
+}
+
+/* Os blocos também ficam escuros */
+.escuro section {
+    background-color: #383838;
+}
